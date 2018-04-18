@@ -15,12 +15,12 @@ img{
     border: 0;
 }
 #top{
-    position: absolute;
+    margin: 0 auto;
     clear: both;
-    width: 1230px;
+    width: 1200px;
+    height: 32px;
     color: #999999;
     background: #f2f2f2;
-    display: inline-block;
 }
 .login{
     margin-right: 30px;
@@ -76,4 +76,15 @@ img{
 }
 #menu-2 a{
     width: 62px;
+}
+.menu-bd span{
+    text-align: left;
+    padding-left: 24px;
+    display: block;
+    height: 28px;
+
+}
+#menu-3{
+    width: 144px;
+    height: 230px;
 }
