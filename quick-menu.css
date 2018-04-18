@@ -58,10 +58,22 @@ img{
     border: solid #eeeeee;
     border-width: 0 1px 1px;
 }
-#menu-1 a{
+.menu-bd a{
     display: inline-block;
-    width: 72px;
     height: 20px;
     line-height: 20px;
     color: #999999;
+}
+.menu-bd a:hover{
+    color: #ff0000;
+}
+#menu-1 a{
+    width: 72px;
+}
+#menu-2{
+    width: 84px;
+    height: 57px;
+}
+#menu-2 a{
+    width: 62px;
 }
