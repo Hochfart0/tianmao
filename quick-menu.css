@@ -55,10 +55,13 @@ img{
     width: 96px;
     height: 57px;
     display: none;
+    border: solid #eeeeee;
+    border-width: 0 1px 1px;
 }
 #menu-1 a{
     display: inline-block;
     width: 72px;
     height: 20px;
     line-height: 20px;
+    color: #999999;
 }
