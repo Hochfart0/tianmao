@@ -15,6 +15,8 @@ img{
     border: 0;
 }
 #top{
+    position: absolute;
+    clear: both;
     width: 1230px;
     color: #999999;
     background: #f2f2f2;
@@ -30,14 +32,33 @@ img{
     float: left;
 }
 .mini-menu{
+    width: 74px;
     height: 32px;
     text-align: center;
     font-size: 12px;
     line-height: 32px;
-    margin-left: 30px;
+    margin-left: 10px;
     float: right;
 }
-#space{
+.mini-menu:hover{
+    background: #ffffff;
+    color: #ff0000;
+}
+.mini-menu:hover .menu-bd{
+    display: block;
+}
+#space {
+    width: 0;
     border-left: 1px solid #cccccc;
-
+}
+.menu-bd{
+    width: 96px;
+    height: 57px;
+    display: none;
+}
+#menu-1 a{
+    display: inline-block;
+    width: 72px;
+    height: 20px;
+    line-height: 20px;
 }
