@@ -44,8 +44,10 @@ img{
     /*background: #ffffff;*/
 }
 .mini-menu:hover{
-    background: #ffffff;
     color: #ff0000;
+}
+.mini-menu-1:hover{
+    background: #ffffff;
 }
 .mini-menu:hover .menu-bd{
     display: block;
@@ -57,7 +59,8 @@ img{
 .menu-bd{
     width: 96px;
     height: 57px;
-    display: none;
+    overflow: hidden;
+    /*display: none;*/
     border: solid #eeeeee;
     border-width: 0 1px 1px;
     background: #ffffff;
@@ -81,16 +84,34 @@ img{
 #menu-2 a{
     width: 62px;
 }
-.menu-bd span{
+#menu-3 h4{
     text-align: left;
-    padding-left: 24px;
     display: block;
-    height: 28px;
+    height: 20px;
 
 }
 #menu-3{
-    width: 144px;
-    height: 230px;
+    width: 120px;
+    height: auto;
+    line-height: 20px;
+    padding: 8px 10px;
+}
+#menu-3 li{
+    margin-right: -20px;
+}
+#list-1{
+    width: 120px;
+    border-top:1px dotted #827777;
+    border-bottom: 1px dotted #827777;
+    padding: 5px 0;
+
+}
+#sitemap-friend{
+
+    margin-right: 12px;
+}
+.sitemap-right{
+    margin-right: 20px;
 }
 .header-extra {
     width: 1200px;
