@@ -105,9 +105,10 @@ img{
     width: 190px;
     height: 80px;
 }
-#mallSearch {
+#mallSearch{
     float: right;
-    width: 410px;
+    width: 450px;
+    height: 38px;
     padding-top: 38px;
 
 }
@@ -116,14 +117,14 @@ img{
     border: solid #ff0036;
 }
 .s-combobox-input-wrap input{
+    clear: both;
     display: inline-block;
     width: 268px;
     height: 26px;
     border: 0;
     padding: 5px 3px 5px 5px;
 }
-#mallSearch button{
-    /*position: absolute;*/
+#mallSearch .button{
     float: right;
     width: 132px;
     height: 36px;
